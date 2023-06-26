@@ -1,0 +1,23 @@
+{
+  "name": "hane_playwright_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.34.3",
+    "@synthetixio/synpress": "^2.3.2"
+  },
+  "scripts": {
+    "check": "playwright test"
+  },
+  "dependencies": {
+    "data": "^0.6.1",
+    "ethers": "^6.4.0",
+    "fetch": "^1.1.0",
+    "fixtures": "^0.0.2",
+    "node-fetch": "^2.6.11"
+  }
+}
